@@ -8,11 +8,7 @@ To get started with boilerplate, please make sure you have NodeJS installed.
 
 ```bash
 
-sudo npm install webpack -g
-mkdir myfluxapp
-wget -qO- -O tmp.zip http://git.gnbox.org/mmcfarland/lampy/repository/archive.zip?ref=master && unzip tmp.zip -d myfluxapp && rm tmp.zip
-cd myfluxapp
-webpack
+git clone https://github.com/MattMcFarland/flux-react-now.git myfluxapp
 ```
 
 A new Main.js file will be available in the public_html folder.
