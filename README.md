@@ -9,6 +9,10 @@ To get started with boilerplate, please make sure you have NodeJS installed.
 ```bash
 
 git clone https://github.com/MattMcFarland/flux-react-now.git myfluxapp
+rm -rf .git
+git init
+
+npm install
 ```
 
 A new Main.js file will be available in the public_html folder.
