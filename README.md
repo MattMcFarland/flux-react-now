@@ -15,6 +15,8 @@ rm -rf .git
 git init
 
 npm install
+
+webpack
 ```
 
 A new Main.js file will be available in the public_html folder.
